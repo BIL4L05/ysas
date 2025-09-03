@@ -8,7 +8,7 @@ int main() {
     scanf("%d", &number);
 
     if (number < 0) {
-        printf("Le nombre est negatif.\n");
+        printf("Le nombre .\n");
     } else {
 
         for (int i = 1 ; i <= number ; i++) {
@@ -17,6 +17,6 @@ int main() {
 
         printf("%d! = %llu\n", number , factorielle);
     }
-
+    
     return 0;
 }
